@@ -17,7 +17,7 @@ fn main() {
     let mut world = World::default();
     let mut resources = Resources::default();
 
-    // Add some entities, populated with &str components, to the World.
+    // Add some entities, populated with String components, to the World.
     for name in ["Olive", "Lydia", "Bob", "Magnus"].iter() {
         world.spawn((name.to_string(),));
     }
